@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'chineseFood';
+  src: url('./fonts/Chinese Takeaway.ttf');
+}
+header {
+  min-height: 50px;
+  background-color: #bc9b1b;
+  color: #374ea6;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'chineseFood';
+  font-size: 5em;
+}
+
+body {
+  background: url('img/chopsticks.png');
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#me {
+  border: 7px solid black;
+}
+
+.social {
+  transition: all .2s ease-in-out;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+#techSkills {
+  color: white;
+  background-color: red;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
